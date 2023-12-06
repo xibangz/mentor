@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 public class Sandbox {
 
@@ -44,6 +43,7 @@ public class Sandbox {
                 for (Permission permission : permissions) {
                     if (GENERATE_REPORT_PERMISSION.equals(permission.getAlias())) {
                         generateReportPermission = permission;
+                        break;
                     }
                 }
 
