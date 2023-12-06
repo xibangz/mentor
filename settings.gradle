@@ -1,2 +1,3 @@
 rootProject.name = 'mentor'
+include 'java-8'
 
